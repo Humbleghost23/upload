@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>High Resolution Image Upload</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module"  src="./script.js" defer></script>
+    
+    <!-- Import Map for Firebase modules -->
+    <script type="importmap">
+        {
+          "imports": {
+            "firebase/app": "./node_modules/firebase/app/dist/index.esm.js",
+            "firebase/storage": "./node_modules/firebase/storage/dist/index.esm.js"
+          }
+        }
+    </script>
+
+    <!-- Link to your JavaScript file as a module -->
+    <script type="module" src="./script.js" defer></script>
   </head>
+  
   <body>
     <div class="container">
       <h1>Select Category to Upload</h1>

@@ -1,5 +1,6 @@
 // Import necessary Firebase modules
-import { initializeApp } from "firebase/app";
+npm run dev
+
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getStorage, ref,uploadBytes, getDownloadURL } from "firebase/storage";
 
