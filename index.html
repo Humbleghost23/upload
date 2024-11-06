@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Resolution Image Upload</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module"  src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Select Category to Upload</h1>
+
+      <!-- Category 1 -->
+      <div class="category" id="category1">
+        <h2>360 Booth</h2>
+        <div class="upload-box" id="upload-box-1">
+          <span class="plus-sign">+</span>
+        </div>
+        <input
+          type="file"
+          id="fileInput1"
+          accept="image/*,video/*"
+          multiple  
+        />
+        <div class="preview" id="preview1"></div>
+        <button class="upload-btn" id="upload-btn-1">
+          Upload
+        </button>
+      </div>
+
+      <!-- Category 2 -->
+      <div class="category" id="category2">
+        <h2>Event Decor</h2>
+        <div class="upload-box" id="upload-box-2">
+          <span class="plus-sign">+</span>
+        </div>
+        <input
+          type="file"
+          id="fileInput2"
+          accept="image/*,video/*"
+          multiple
+          
+        />
+        <div class="preview" id="preview2"></div>
+        <button
+          class="upload-btn"
+          id="upload-btn-2"
+        >
+          Upload
+        </button>
+      </div>
+
+      <!-- Category 3 -->
+      <div class="category" id="category3">
+        <h2>Photo</h2>
+        <div class="upload-box" id="upload-box-3">
+          <span class="plus-sign">+</span>
+        </div>
+        <input
+          type="file"
+          id="fileInput3"
+          accept="image/*,video/*"
+          multiple
+        />
+        <div class="preview" id="preview3"></div>
+        <button
+          class="upload-btn"
+          id="upload-btn-3"
+        >
+          Upload
+        </button>
+      </div>
+
+      <!-- Overall Upload Button -->
+      <button class="upload-all-btn" id="upload-all-btn">Upload All</button>
+    </div>
+  </body>
+</html>
