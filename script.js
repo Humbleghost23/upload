@@ -1,18 +1,17 @@
 // Import necessary Firebase modules
-npm run dev
-
+import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getStorage, ref,uploadBytes, getDownloadURL } from "firebase/storage";
 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA_ppbA_-dmuttPv9jl9MI8uDZv6ALNn1Y",
-  authDomain: "chidaddi-2364e.firebaseapp.com",
-  projectId: "chidaddi-2364e",
-  storageBucket: "chidaddi-2364e.appspot.com",
-  messagingSenderId: "794510079018",
-  appId: "1:794510079018:web:f2ce202ae97aa31084bf53"
+  apiKey: "AIzaSyDImOUSHOulMYpWLzyfEaTZeHLVzGenH0g",
+  authDomain: "chidadi-e93ce.firebaseapp.com",
+  projectId: "chidadi-e93ce",
+  storageBucket: "chidadi-e93ce.appspot.com",
+  messagingSenderId: "455834558978",
+  appId: "1:455834558978:web:2830e89058f036ededfd1b"
 };
 
 // Initialize Firebase
