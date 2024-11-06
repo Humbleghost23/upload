@@ -9,7 +9,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyA_ppbA_-dmuttPv9jl9MI8uDZv6ALNn1Y",
   authDomain: "chidaddi-2364e.firebaseapp.com",
   projectId: "chidaddi-2364e",
-  storageBucket: "chidaddi-2364e.firebasestorage.app",
+  storageBucket: "chidaddi-2364e.appspot.com",
   messagingSenderId: "794510079018",
   appId: "1:794510079018:web:f2ce202ae97aa31084bf53"
 };
